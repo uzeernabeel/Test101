@@ -15,10 +15,11 @@ public class MyGdxGame extends ApplicationAdapter {
 	private SpriteBatch batch;
 	private Texture texture;
 	private Sprite sprite;
-	
+
 	@Override
 	public void create () {
 
+		// This is the test for master commit
 		float w = Gdx.graphics.getWidth();
 		float h = Gdx.graphics.getHeight();
 		camera = new OrthographicCamera(1, h/w);
@@ -42,7 +43,7 @@ public class MyGdxGame extends ApplicationAdapter {
 		batch.draw(texture, 0, 0);
 		batch.end();
 	}
-	
+
 	@Override
 	public void dispose () {
 		batch.dispose();
