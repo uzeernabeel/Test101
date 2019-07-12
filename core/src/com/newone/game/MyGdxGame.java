@@ -35,19 +35,15 @@ public class MyGdxGame extends ApplicationAdapter {
 	}
 
 	@Override
-	public void render () {
-		Gdx.gl.glClearColor(1, 1, 1, 1);
-		Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
-		//batch.setProjectionMatrix(camera.combined);
-		batch.begin();
-		batch.draw(texture, 0, 0);
-		batch.end();
-	}
-
-	@Override
 	public void dispose () {
 		batch.dispose();
 		img.dispose();
 		texture.dispose();
+	}
+
+
+	@Override
+	public void test () {
+		System.out.println("Ajeel");
 	}
 }
