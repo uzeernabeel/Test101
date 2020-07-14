@@ -2,6 +2,12 @@
 This is the python file to create a support document
 '''
 
+def greeting (name):
+    print("Hello", name)
+    print("Be the change that you wish to see in the world. (Mahatma Gandhi)")
+
+print("\n\n")
+
 n=5;
 for i in range(n):
     for j in range(i):
@@ -33,9 +39,10 @@ for row in range(1, rows+1):
     print("")
 
 print("\n\n")
+
+greeting("")
+
 print("done with the program!!!")
-
-
 
 
 
