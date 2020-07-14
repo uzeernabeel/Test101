@@ -39,16 +39,13 @@ for row in range(1, rows+1):
     print("")
 
 print("\n\n")
-<<<<<<< HEAD
 
 greeting("")
 
 print("done with the program!!!")
-=======
 print("done with the program!!!")
 
 
->>>>>>> master
 
 
 
